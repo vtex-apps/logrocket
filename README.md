@@ -23,7 +23,7 @@ Fill in your LogRocket's Account ID and click save.
 
 Open your admin in the Checkout section in the `checkout6-custom.js`:
 
-https://master--alssports.myvtexdev.com/admin/portal/#/sites/default/code/files/checkout6-custom.js
+https://ACCOUNT.myvtexdev.com/admin/portal/#/sites/default/code/files/checkout6-custom.js
 
 Add the following snippet in the file:
 
