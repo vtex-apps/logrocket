@@ -31,8 +31,7 @@ Add the following snippet in the file:
 // LogRocket
 (function() {
   var accountId = 'YOURACCOUNTID';
-  var b=document.createElement("script");b.type="text/javascript";b.crossOrigin="anonymous";b.src="https://cdn.lr-ingest.io/LogRocket.min.js";a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a);
-  window.LogRocket && window.LogRocket.init(accountId);
+  var b=document.createElement("script");b.onload=function(){window.LogRocket && window.LogRocket.init(accountId);};b.type="text/javascript";b.crossOrigin="anonymous";b.src="https://cdn.lr-ingest.io/LogRocket.min.js";a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a);
 })();
 ```
 
